@@ -1,0 +1,7 @@
+{
+    "api_url": "https://gitlab.com/api/v4",
+    "private_token": "GL_TOKEN",
+    "groups": "GL_GROUP", 
+    "projects": "",
+    "start_date": "2018-01-01T00:00:00Z"
+}
