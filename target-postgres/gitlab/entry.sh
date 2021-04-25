@@ -11,6 +11,4 @@ sed -i "s|GL_GROUP|${GL_GROUP}|" gitlab.conf.json
 
 python setup.py
 
-cat gitlab.conf.json
-
 ~/.virtualenvs/tap-gitlab/bin/tap-gitlab --config gitlab.conf.json | ~/.virtualenvs/singer-target-postgres/bin/target-postgres --config postgres.conf.json
